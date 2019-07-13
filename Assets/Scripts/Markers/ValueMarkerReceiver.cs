@@ -11,7 +11,8 @@ public class ValueMarkerReceiver : MonoBehaviour, INotificationReceiver
             return;
         }
 
-        this.PrintValue(marker.Value);
+        Debug.Log(marker.Value);
+        //this.PrintValue(marker.Value);
     }
 
     void PrintValue(float value)
